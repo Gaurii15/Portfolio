@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificates</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #0f0f0f, #302f2f);
+            color: #fff;
+            animation: fadeZoomIn 1.2s ease-out;
+        }
+
+        .container {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            color: aqua;
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            transition: transform 0.4s;
+        }
+
+        h1:hover {
+            color: #089a9a;
+            transform: translateY(-5px);
+        }
+
+        p.subtitle {
+            font-size: 1.2rem;
+            color: rgb(72, 196, 196);
+            margin-bottom: 2rem;
+        }
+
+        .cert-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 1.5rem;
+            justify-content: center;
+        }
+
+        .cert-card {
+            background-color: black;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cert-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px rgb(47, 174, 174);
+        }
+
+        .cert-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: rgb(72, 196, 196);
+        }
+
+        .cert-org {
+            font-size: 0.95rem;
+            color: #ccc;
+            margin-bottom: 0.3rem;
+        }
+
+        .cert-date {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 1rem;
+        }
+
+        .view-btn {
+            color: orange;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .view-btn:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+
+        @keyframes fadeZoomIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.98) translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Certificates</h1>
+        <p class="subtitle">"Certificates reflect not just achievement, but dedication to continuous learning." 🎓</p>
+
+        <div class="cert-grid">
+            <!-- Certificate 1 -->
+            <div class="cert-card">
+                <div class="cert-title">Deloitte Australia - Data Analytics Job Simulation</div>
+                <div class="cert-org">Forage</div>
+                <div class="cert-date">Issued Jun 2025</div>
+                <a class="view-btn" href="Deloitte data analytics.pdf" target="_blank">View Certificate</a>
+            </div>
+
+            <!-- Certificate 2 -->
+            <div class="cert-card">
+                <div class="cert-title">JPMorgan Chase & Co. - Excel Skills Job Simulation of Goldman Sachs</div>
+                <div class="cert-org">Forage</div>
+                <div class="cert-date">Nov 2024</div>
+                <a class="view-btn" href="Excel skill certification.pdf" target="_blank">View Certificate</a>
+            </div>
+
+            <!-- Certificate 3 -->
+            <div class="cert-card">
+                <div class="cert-title">Microsoft Power BI Course Completion</div>
+                <div class="cert-org">ISO</div>
+                <div class="cert-date">Apr 2025</div>
+                <a class="view-btn" href="powerbi.pdf" target="_blank">View Certificate</a>
+            </div>
+
+            <!-- Certificate 4 -->
+            <div class="cert-card">
+                <div class="cert-title">Developer and Technology Job Simulation by Accenture</div>
+                <div class="cert-org">Forage</div>
+                <div class="cert-date">Nov 2024</div>
+                <a class="view-btn" href="Accenture certificate.pdf" target="_blank">View Certificate</a>
+            </div>
+
+            <!-- Certificate 4 -->
+            <div class="cert-card">
+                <div class="cert-title">Python course Completion</div>
+                <div class="cert-org">Geekster</div>
+                <div class="cert-date">Sept 2024</div>
+                <a class="view-btn" href="Accenture certificate.pdf" target="_blank">View Certificate</a>
+            </div>
+
+            <!-- Certificate 4 -->
+            <div class="cert-card">
+                <div class="cert-title">Azure AI Services and Concepts</div>
+                <div class="cert-org">Ratan Tata Maharashtra State Skill University</div>
+                <div class="cert-date">Feb/Mar 2025</div>
+                <a class="view-btn" href="Azure AI.pdf" target="_blank">View Certificate</a>
+            </div>
+
+            <!-- Certificate 4 -->
+            <div class="cert-card">
+                <div class="cert-title">Google Cloud Computing Foundations pathway</div>
+                <div class="cert-org">GDGC-GES-COENGG</div>
+                <div class="cert-date">2024</div>
+                <a class="view-btn" href="GDGC.pdf" target="_blank">View Certificate</a>
+            </div>
+
+            <!-- Certificate 3 -->
+            <div class="cert-card">
+                <div class="cert-title">Web Development Bootcamp</div>
+                <div class="cert-org">Skill Ected</div>
+                <div class="cert-date">December 2024</div>
+                <a class="view-btn" href="HTML CSS Bootcamp.jpeg" target="_blank">View Certificate</a>
+            </div>
+
+            <!-- Certificate 3 -->
+            <div class="cert-card">
+                <div class="cert-title">Generative AI : Build your own AI model Workshop</div>
+                <div class="cert-org">NxtWave</div>
+                <div class="cert-date">May 2025</div>
+                <a class="view-btn" href="GenAiWorkshop.jpeg" target="_blank">View Certificate</a>
+            </div>
+
+            <!-- More certificates can be added below using same structure -->
+        </div>
+    </div>
+</body>
+
+</html>
